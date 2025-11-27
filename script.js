@@ -138,29 +138,3 @@ function clearcart() {
   updateFeedback("Cart is cleared", "success");
 }
 clearCartBtn.addEventListener("click", clearcart);
-
-// function addToCart(id) {
-//   console.log("add to cart", id);
-
-//   const cart = document.getElementById("cartContainer");
-//   console.log("cart", cart);
-//   const productrow1 = `<div class="product-row">
-//                 <p>${products[id - 1].name} - ${products[id - 1].price}</p>
-//                 <button onclick="removeProduct(${
-//                   products[id - 1].id
-//                 })">Remove</button>
-//             </div>`;
-//   cart.insertAdjacentHTML("beforeend", productrow1);
-
-// }
-
-// const productRow = `
-// <div class="product-row">
-// <p> ${item.name} </p>
-// <button> Add to Cart </button>
-// </div>`;
-
-// console.log(productRow);
-// productsContainer[0].insertAdjacentHTML("beforeend", productRow);
-
-// creating html by instance - success case
